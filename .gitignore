@@ -1,0 +1,12 @@
+obj/
+bin/
+packages/
+*.suo
+*.user
+*.Debug.log
+*.InstallLog
+project.lock.json
+restore.dg
+.DS_Store
+dist
+.vs/

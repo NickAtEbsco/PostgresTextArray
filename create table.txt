@@ -1,0 +1,11 @@
+CREATE TABLE public.test
+(
+  id SERIAL NOT NULL,
+  textarray text[],
+  CONSTRAINT test_id_primary PRIMARY KEY (id)
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE public.test
+  OWNER TO master;
